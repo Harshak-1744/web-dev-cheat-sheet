@@ -1,6 +1,6 @@
 # web-dev-cheat-sheet
 
-# HTML Cheat Sheet
+## HTML Cheat Sheet
 
 ## Document Structure
 
