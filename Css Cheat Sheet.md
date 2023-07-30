@@ -80,42 +80,42 @@ element[attr="value"] {
 
 ## Colors and Backgrounds
 
-- **Color**: Sets the text color using `color`.
+## **Color**: Sets the text color using `color`.
 ```css
 color: value;               /* For text color */
 ```
 
-- **Background Color**: Sets the background color using `background-color`.
+## **Background Color**: Sets the background color using `background-color`.
 ```css
 background-color: value;    /* For background color */
 ```
 
-- **Opacity**: Specifies the opacity of an element using `opacity` (range: 0 to 1).
+## **Opacity**: Specifies the opacity of an element using `opacity` (range: 0 to 1).
 ```css
 opacity: value;             /* Range: 0 to 1 */
 ```
 
-- **Background Image**: Sets a background image using `background-image`.
+## **Background Image**: Sets a background image using `background-image`.
 ```css
 background-image: url('image.jpg');
 ```
 
-- **Background Repeat**: Controls how the background image is repeated using `background-repeat`.
+## **Background Repeat**: Controls how the background image is repeated using `background-repeat`.
 ```css
 background-repeat: repeat | repeat-x | repeat-y | no-repeat;
 ```
 
-- **Background Attachment**: Specifies whether the background image scrolls with the content using `background-attachment`.
+## **Background Attachment**: Specifies whether the background image scrolls with the content using `background-attachment`.
 ```css
 background-attachment: scroll | fixed | local;
 ```
 
-- **Background Position**: Sets the starting position of the background image using `background-position`.
+## **Background Position**: Sets the starting position of the background image using `background-position`.
 ```css
 background-position: x y;
 ```
 
-- **Background Size**: Adjusts the size of the background image using `background-size`.
+## **Background Size**: Adjusts the size of the background image using `background-size`.
 ```css
 background-size: auto | cover | contain;
 ```
