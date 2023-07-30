@@ -431,7 +431,6 @@ grid-row: start / end;
 grid-area: area-name;
 ```
 
-Certainly! Here's the description for the other CSS properties mentioned in the "Other Properties" section:
 
 ### Flexbox and Grid Shortcuts
 
@@ -534,9 +533,6 @@ animation-play-state: running | paused;
 - `animation-fill-mode`: Determines what values are applied to the element before and after the animation, such as `none`, `forwards`, `backwards`, or `both`.
 - `animation-play-state`: Controls whether the animation is running or paused, using `running` or `paused`.
 
-
-
-Certainly! Here's a description of each property related to the "Other Features" section in CSS:
 
 ### Cursor
 
