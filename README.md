@@ -13,4 +13,8 @@ Welcome to the HTML, CSS, and JavaScript Cheat Sheets repository! This repositor
 ## [Js_cheat_sheet.md](https://github.com/Harshak-1744/web-dev-cheat-sheet/blob/main/JS%20Cheat%20Sheet.md) : 
    This Markdown file covers JavaScript fundamentals, including variables, functions, conditional statements, loops, and more.
 
+---
+# DOCUMENTS FOR REFERENCE 👇 
+# [HTML_Cheatsheet.pdf](https://github.com/Harshak-1744/web-dev-cheat-sheet/files/12328756/HTML_Cheatsheet.pdf)
+
 
