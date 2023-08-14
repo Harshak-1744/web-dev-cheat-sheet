@@ -16,5 +16,4 @@ Welcome to the HTML, CSS, and JavaScript Cheat Sheets repository! This repositor
 ---
 # DOCUMENTS FOR REFERENCE 👇 
 # [HTML_Cheatsheet.pdf](https://github.com/Harshak-1744/web-dev-cheat-sheet/files/12328756/HTML_Cheatsheet.pdf)
-
-
+# [JavaScript Cheatsheet.pdf](https://github.com/Harshak-1744/web-dev-cheat-sheet/files/12332335/JavaScript.Cheatsheet.pdf)
