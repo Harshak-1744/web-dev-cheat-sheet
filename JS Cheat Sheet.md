@@ -1,7 +1,75 @@
 # JS Cheat Sheet
 
-## Variables and Data Types:
-- Variables in JavaScript are used to store data values. They are declared using the `let` keyword and can be assigned various data types, such as numbers, strings, booleans, arrays, and objects.
+## Variables:
+Variables are used to store and manage data values in programming languages. In JavaScript, you can declare variables using the `let`, `const`, or `var` keyword. The `let` and `const` keywords were introduced in newer versions of JavaScript (ES6), while `var` has been used in older versions. Here, I'll focus on `let` and `const`.
+
+1. **`let`**: Variables declared with `let` can be reassigned new values after they're initially assigned. They have block scope, meaning they're only accessible within the block of code they're declared in.
+
+   ```javascript
+   let age = 25;
+   age = 26; // Valid, reassigning the value
+   ```
+
+2. **`const`**: Variables declared with `const` are used for values that won't change after they're assigned. They also have block scope. Once assigned, their value cannot be changed or reassigned.
+
+   ```javascript
+   const pi = 3.14159;
+   // pi = 3.14; // Error, cannot reassign a constant
+   ```
+
+### Data Types:
+JavaScript has several built-in data types that determine the kind of values that can be stored in variables. Here are some of the fundamental data types:
+
+1. **Numbers**: Used for numeric values, including integers and floating-point numbers.
+
+   ```javascript
+   let age = 25; // Integer
+   let price = 19.99; // Floating-point number
+   ```
+
+2. **Strings**: Used for textual data. Strings are enclosed in single or double quotes.
+
+   ```javascript
+   let name = "John";
+   let message = 'Hello, world!';
+   ```
+
+3. **Booleans**: Used for representing true or false values.
+
+   ```javascript
+   let isStudent = true;
+   let hasCar = false;
+   ```
+
+4. **Arrays**: Used to store collections of values. Arrays can contain elements of any data type.
+
+   ```javascript
+   let colors = ["red", "green", "blue"];
+   let numbers = [1, 2, 3, 4, 5];
+   ```
+
+5. **Objects**: Used to store key-value pairs, where each key is a string (or symbol) and each value can be of any data type.
+
+   ```javascript
+   let person = {
+       firstName: "John",
+       lastName: "Doe",
+       age: 30,
+       isStudent: false
+   };
+   ```
+
+6. **Null**: Represents the intentional absence of any value or object.
+
+   ```javascript
+   let emptyValue = null;
+   ```
+
+7. **Undefined**: Represents an uninitialized or unassigned value.
+
+   ```javascript
+   let undefinedValue;
+   ```
 
 ## Operators:
 - Operators are symbols used to perform operations on variables and values. JavaScript includes arithmetic, assignment, comparison, and logical operators to perform various tasks.
