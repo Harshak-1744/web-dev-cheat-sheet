@@ -156,6 +156,8 @@ The Box Model in CSS refers to how elements are rendered and how their dimension
   box-shadow: h-offset v-offset blur spread color;
   ```
 
+![box-model](https://github.com/Harshak-1744/web-dev-cheat-sheet/assets/85007461/ebd78dc9-f677-43ab-acba-52a81ee72cc1)
+
 
 ## Text Styling
 
