@@ -193,6 +193,5 @@ JavaScript has several built-in data types that determine the kind of values tha
 
 ## Proxy and Reflection API:
 - Proxies provide a way to intercept and customize operations on objects, while the Reflection API allows inspecting and manipulating objects at runtime.
-
 ---
 
