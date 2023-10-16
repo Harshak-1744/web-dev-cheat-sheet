@@ -1,5 +1,8 @@
 # JS Cheat Sheet
 
+## What is JavaScript?
+JavaScript is a Synchronous, Single Threaded Programming language.
+
 ## Variables:
 Variables are used to store and manage data values in programming languages. In JavaScript, you can declare variables using the `let`, `const`, or `var` keyword. The `let` and `const` keywords were introduced in newer versions of JavaScript (ES6), while `var` has been used in older versions. Here, I'll focus on `let` and `const`.
 
