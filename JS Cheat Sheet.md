@@ -4,16 +4,23 @@
 JavaScript is a Synchronous, Single Threaded Programming language.
 
 ## Variables:
-Variables are used to store and manage data values in programming languages. In JavaScript, you can declare variables using the `let`, `const`, or `var` keyword. The `let` and `const` keywords were introduced in newer versions of JavaScript (ES6), while `var` has been used in older versions. Here, I'll focus on `let` and `const`.
+Variables are used to store and manage data values in programming languages. In JavaScript, you can declare variables using the `let`, `const`, or `var` keywords. The `let` and `const` keywords were introduced in newer versions of JavaScript (ES6), while `var` has been used in older versions. Here, I'll focus on `let` and `const`.
 
-1. **`let`**: Variables declared with `let` can be reassigned new values after they're initially assigned. They have block scope, meaning they're only accessible within the block of code they're declared in.
+1. **`let`**: Variables declared with `let` can be reassigned to new values after they're initially assigned. They have block scope, meaning they're only accessible within the block of code they're declared in.
 
    ```javascript
    let age = 25;
    age = 26; // Valid, reassigning the value
    ```
 
-2. **`const`**: Variables declared with `const` are used for values that won't change after they're assigned. They also have block scope. Once assigned, their value cannot be changed or reassigned.
+2. **`var`**: Variables declared with `var`, is an older version of declaring variables. It doesn't have a block scope, meaning it can be declared and accessed entire program.
+
+   ```javascript
+   var age = 17;
+   age = 30; // Valid, reassigning the value
+   ```
+
+3.  **`const`**: Variables declared with `const` are used for values that won't change after they're assigned. They also have a block scope. Once assigned, their value cannot be changed or reassigned.
 
    ```javascript
    const pi = 3.14159;
