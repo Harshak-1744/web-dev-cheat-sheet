@@ -91,8 +91,112 @@ JavaScript has several built-in data types that determine the kind of values tha
 - Loops are used to execute a block of code repeatedly. JavaScript provides `for`, `while`, and `do...while` loops for different looping scenarios.
 
 ## Functions:
-- Functions are blocks of code designed to perform a specific task. They are reusable and can take arguments and return values.
 
+Functions are one of the fundamental building blocks in JavaScript. Here's an overview of various types of functions with simple examples:
+
+##1. Regular Functions
+
+The most basic type of function.
+
+```javascript
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+console.log(greet("Alice")); // "Hello, Alice!"
+```
+
+## 2. Anonymous Functions
+
+Functions that don't have a name.
+
+```javascript
+const greeting = function(name) {
+    return "Hi, " + name + "!";
+}
+console.log(greeting("Bob")); // "Hi, Bob!"
+```
+
+## 3. Arrow Functions
+
+A more concise syntax for writing function expressions.
+
+```javascript
+const greetArrow = (name) => "Hey, " + name + "!";
+console.log(greetArrow("Charlie")); // "Hey, Charlie!"
+```
+
+## 4. Immediately Invoked Function Expressions (IIFE)
+
+Functions that run as soon as they are defined.
+
+```javascript
+(function() {
+    console.log("I am an IIFE!");
+})();
+```
+
+## 5. Constructor Functions
+
+Functions that are used to create objects.
+
+```javascript
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+const person1 = new Person("Diana", 30);
+console.log(person1.name); // "Diana"
+```
+
+## 6. Generator Functions
+
+Functions that can be exited and later re-entered.
+
+```javascript
+function* idGenerator() {
+    let id = 0;
+    while (true) {
+        yield id++;
+    }
+}
+
+const gen = idGenerator();
+console.log(gen.next().value); // 0
+console.log(gen.next().value); // 1
+```
+
+## 7. Async Functions
+
+Functions that return a promise, allowing the use of `await` within them.
+
+```javascript
+async function fetchData(url) {
+    let response = await fetch(url);
+    let data = await response.json();
+    return data;
+}
+
+// fetchData('https://api.example.com/data').then(console.log);
+```
+
+## 8. Callback Functions
+
+Functions passed as an argument to another function.
+
+```javascript
+function doSomething(callback) {
+    // simulate some async operation
+    setTimeout(function() {
+        console.log("Task done!");
+        callback();
+    }, 1000);
+}
+
+doSomething(function() {
+    console.log("Callback called!");
+});
+```
 ## Arrays:
 - Arrays are used to store multiple values in a single variable. Each value is indexed, starting from 0, allowing easy access and manipulation of the data.
 
