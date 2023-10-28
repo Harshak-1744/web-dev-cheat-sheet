@@ -94,7 +94,7 @@ JavaScript has several built-in data types that determine the kind of values tha
 
 Functions are one of the fundamental building blocks in JavaScript. Here's an overview of various types of functions with simple examples:
 
-##1. Regular Functions
+## 1. Regular Functions
 
 The most basic type of function.
 
