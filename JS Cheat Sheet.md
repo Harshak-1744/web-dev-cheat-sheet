@@ -85,7 +85,84 @@ JavaScript has several built-in data types that determine the kind of values tha
 - Operators are symbols used to perform operations on variables and values. JavaScript includes arithmetic, assignment, comparison, and logical operators to perform various tasks.
 
 ## Conditional Statements:
+
 - Conditional statements like `if`, `else`, `else if`, and `switch` allow you to make decisions in your code based on certain conditions.
+1. **if statement**
+2. **if-else statement**
+3. **if-else if-else statement**
+4. **switch statement**
+5. **ternary operator**
+
+Let's dive into each one:
+
+### 1. `if` statement
+The `if` statement evaluates a condition. If the condition is `true`, the code inside the `if` block is executed.
+
+```javascript
+let age = 18;
+if (age >= 18) {
+    console.log("You are eligible to vote.");
+}
+```
+
+### 2. `if-else` statement
+The `if-else` statement evaluates a condition. If the condition is `true`, the code inside the `if` block is executed; otherwise, the code inside the `else` block is executed.
+
+```javascript
+let age = 16;
+if (age >= 18) {
+    console.log("You are eligible to vote.");
+} else {
+    console.log("You are not eligible to vote.");
+}
+```
+
+### 3. `if-else if-else` statement
+This is used when there are multiple conditions to evaluate. The conditions are checked from top to bottom. As soon as one condition is found to be `true`, the code inside that block is executed, and the rest of the conditions are skipped.
+
+```javascript
+let score = 85;
+if (score >= 90) {
+    console.log("Grade A");
+} else if (score >= 80) {
+    console.log("Grade B");
+} else if (score >= 70) {
+    console.log("Grade C");
+} else {
+    console.log("Grade D");
+}
+```
+
+### 4. `switch` statement
+The `switch` statement is used to perform different actions based on different conditions. It's especially useful when you have a single expression to evaluate against multiple possible values.
+
+```javascript
+let fruit = "apple";
+switch (fruit) {
+    case "banana":
+        console.log("Yellow fruit");
+        break;
+    case "apple":
+        console.log("Red or green fruit");
+        break;
+    case "orange":
+        console.log("Orange fruit");
+        break;
+    default:
+        console.log("Unknown fruit");
+}
+```
+
+### 5. Ternary Operator
+The ternary operator is a shorthand way of writing an `if-else` statement. It's particularly useful for short, simple conditions.
+
+```javascript
+let age = 18;
+let eligibility = age >= 18 ? "eligible to vote" : "not eligible to vote";
+console.log(eligibility);
+```
+
+In the above example, if `age` is 18 or more, "eligible to vote" is assigned to `eligibility`, otherwise "not eligible to vote" is assigned.
 
 ## Loops:
 - Loops are used to execute a block of code repeatedly. JavaScript provides `for`, `while`, and `do...while` loops for different looping scenarios.
