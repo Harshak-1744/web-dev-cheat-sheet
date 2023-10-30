@@ -159,6 +159,10 @@ The Box Model in CSS refers to how elements are rendered and how their dimension
 ![box-model](https://github.com/Harshak-1744/web-dev-cheat-sheet/assets/85007461/ebd78dc9-f677-43ab-acba-52a81ee72cc1)
 
 
+https://github.com/Harshak-1744/web-dev-cheat-sheet/assets/85007461/bba9f072-2827-44d5-b5d0-8a8359d1ec03
+
+
+
 ## Text Styling
 
 Text Styling in CSS allows you to control the appearance of text within your web page. It includes various properties that affect the font, size, alignment, decorations, capitalization, and line height. Below are the details and examples of each property:
