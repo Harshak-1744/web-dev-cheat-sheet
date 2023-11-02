@@ -57,6 +57,39 @@ JavaScript has several built-in data types that determine the kind of values tha
    let colors = ["red", "green", "blue"];
    let numbers = [1, 2, 3, 4, 5];
    ```
+   ** Commonly Used JavaScript Array Methods**
+
+In JavaScript, arrays come with many built-in methods to perform various operations. Here's a list of some of the most commonly used array methods along with a brief description of what they do:
+
+*  **`push()`** - Adds one or more elements to the end of an array and returns the new length of the array.
+* **`pop()`** - Removes the last element from an array and returns that element.
+* **`shift()`** - Removes the first element from an array and returns that element.
+* **`unshift()`** - Adds one or more elements to the beginning of an array and returns the new length of the array.
+* **`forEach()`** - Executes a provided function once for each array element.
+* **`map()`** - Creates a new array with the results of calling a provided function on every element in the calling array.
+* **`filter()`** - Creates a new array with all elements that pass the test implemented by the provided function.
+* **`reduce()`** - Applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value.
+* **`reduceRight()`** - Applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value.
+* **`sort()`** - Sorts the elements of an array in place and returns the array. The default sort order is ascending, built upon converting the elements into                    strings and comparing their sequences of UTF-16 code units values.
+*  **`reverse()`** - Reverses the order of the elements in an array in place — the first becomes the last, and the last becomes the first.
+*  **`slice()`** - Returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end                      represent the index of items in that array.
+*  **`splice()`** - Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+*  **`join()`** - Joins all elements of an array into a string and returns this string.
+*  **`concat()`** - Is used to merge two or more arrays, and returns a new array, without changing the existing arrays.
+*  **`indexOf()`** - Returns the first index at which a given element can be found in the array, or -1 if it is not present.
+*  **`lastIndexOf()`** - Returns the last index at which a given element can be found in the array, or -1 if it is not present.
+*  **`includes()`** - Determines whether an array includes a certain value among its entries, returning true or false as appropriate.
+*  **`find()`** - Returns the value of the first element in the array that satisfies the provided testing function.
+*  **`findIndex()`** - Returns the index of the first element in the array that satisfies the provided testing function.
+*  **`every()`** - Tests whether all elements in the array pass the test implemented by the provided function.
+*  **`some()`** - Tests whether at least one element in the array passes the test implemented by the provided function.
+*  **`Array.from()`** - Creates a new Array instance from an array-like or iterable object.
+*  **`Array.of()`** - Creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.
+*  **`flat()`** - Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+*  **`flatMap()`** - First maps each element using a mapping function, then flattens the result into a new array.
+
+   Remember, each of these methods may alter the original array or create a new one, and they may take callback functions or specific parameters to perform       their tasks. It's important to understand these details to effectively use each method in your JavaScript code.
+
 
 5. **Objects**: Used to store key-value pairs, where each key is a string (or symbol) and each value can be of any data type.
 
