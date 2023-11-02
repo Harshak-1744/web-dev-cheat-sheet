@@ -51,7 +51,8 @@ JavaScript has several built-in data types that determine the kind of values tha
    let hasCar = false;
    ```
 
-4. **Arrays**: Used to store collections of values. Arrays can contain elements of any data type.
+## **Arrays**: 
+Used to store collections of values. Arrays can contain elements of any data type.
 
    ```javascript
    let colors = ["red", "green", "blue"];
