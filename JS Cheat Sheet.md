@@ -422,11 +422,106 @@ doSomething(function() {
     console.log("Callback called!");
 });
 ```
-## Arrays:
-- Arrays are used to store multiple values in a single variable. Each value is indexed, starting from 0, allowing easy access and manipulation of the data.
 
 ## Objects:
 - Objects are complex data structures used to represent real-world entities. They consist of key-value pairs, where keys are unique identifiers for properties and values represent the data associated with those properties.
+
+## Definition and Creation
+
+In JavaScript, an object is an unordered collection of key-value pairs. The keys (or properties) can be strings or symbols, and the values can be anything from primitives to complex data types.
+
+Objects can be created in several ways:
+
+### Object Literals
+
+The simplest way to create an object is using an object literal:
+
+```javascript
+let person = {
+    name: "John Doe",
+    age: 30,
+    greet: function() {
+        console.log("Hello!");
+    }
+};
+```
+
+### Constructor Functions
+
+You can also create objects using constructor functions:
+
+```javascript
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+    this.greet = function() {
+        console.log("Hello!");
+    };
+}
+
+let person = new Person("John Doe", 30);
+```
+
+### `Object.create()`
+
+Another method is `Object.create()`, which creates a new object with the specified prototype object:
+
+```javascript
+let proto = {
+    greet: function() {
+        console.log("Hello!");
+    }
+};
+
+let person = Object.create(proto);
+person.name = "John Doe";
+person.age = 30;
+```
+
+## Properties and Methods
+
+### Accessing Properties
+
+You can access properties using dot notation or bracket notation:
+
+```javascript
+console.log(person.name); // "John Doe"
+console.log(person['age']); // 30
+```
+
+### Adding and Modifying Properties
+
+Adding or modifying properties is straightforward:
+
+```javascript
+person.gender = "male";
+person.greet = function() {
+    console.log("Hi, I'm " + this.name);
+};
+```
+
+### Deleting Properties
+
+Properties can be removed using the `delete` keyword:
+
+```javascript
+delete person.age;
+```
+
+## Prototypes
+
+Every JavaScript object has a prototype, which is another object from which it inherits properties.
+
+```javascript
+let parent = {
+    sayHello: function() {
+        console.log("Hello from parent");
+    }
+};
+
+let child = Object.create(parent);
+child.sayHello(); // "Hello from parent"
+```
 
 ## Scope and Closures:
 - Scope refers to the visibility and accessibility of variables in different parts of your code. Closures are functions that "remember" the scope in which they were created, even when executed outside that scope.
