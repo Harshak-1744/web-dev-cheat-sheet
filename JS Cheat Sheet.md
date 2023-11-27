@@ -586,6 +586,43 @@ child.sayHello(); // "Hello from parent"
 - It allows web pages to update asynchronously by exchanging data with a web server.
 - AJAX can send and receive data in the background, without refreshing the page.
 
+## Why Use AJAX?
+- Provides a **faster user experience** by updating parts of a page.
+- Reduces **server load** and **bandwidth**.
+- Allows web pages to be **dynamic and interactive**.
+
+## Key Concepts
+1. **XMLHttpRequest Object:** Central to AJAX for server communication.
+2. **JavaScript:** Used for handling data and manipulating the DOM.
+3. **JSON:** Common data format for AJAX communication.
+
+## How AJAX Works
+1. An event on the web page triggers an AJAX call.
+2. JavaScript creates an `XMLHttpRequest` object.
+3. The object sends a request to the server.
+4. The server processes the request.
+5. The server sends a response back.
+6. JavaScript processes the response and updates the page.
+
+## Simple AJAX Example
+```javascript
+// Create XMLHttpRequest object
+var xhttp = new XMLHttpRequest();
+
+// Define the response handler
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    console.log(this.responseText);
+  }
+};
+
+// Open the request
+xhttp.open("GET", "url-to-fetch-data-from", true);
+
+// Send the request
+xhttp.send();
+```
+
 ## Callback Hell and Promises Chaining:
 - Callback hell occurs when multiple nested callbacks lead to complex and unreadable code. Promises chaining is a way to simplify asynchronous operations and avoid callback hell.
 
