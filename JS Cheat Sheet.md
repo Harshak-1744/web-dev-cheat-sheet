@@ -582,6 +582,9 @@ child.sayHello(); // "Hello from parent"
 
 ## AJAX:
 - AJAX (Asynchronous JavaScript and XML) is a technique used to send and retrieve data from the server asynchronously without refreshing the entire web page.
+- **AJAX** stands for **Asynchronous JavaScript and XML**.
+- It allows web pages to update asynchronously by exchanging data with a web server.
+- AJAX can send and receive data in the background, without refreshing the page.
 
 ## Callback Hell and Promises Chaining:
 - Callback hell occurs when multiple nested callbacks lead to complex and unreadable code. Promises chaining is a way to simplify asynchronous operations and avoid callback hell.
