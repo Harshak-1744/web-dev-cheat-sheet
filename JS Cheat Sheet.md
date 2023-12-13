@@ -529,6 +529,8 @@ child.sayHello(); // "Hello from parent"
 ## Callbacks and Higher-Order Functions:
 - Callbacks are functions passed as arguments to other functions and are called after a specific task is completed. Higher-order functions are functions that take other functions as arguments or return them.
 
+## Callback Syntax 
+
  ```javascript
   functionA(function(error, resultA) {
     if (error) {
@@ -546,7 +548,17 @@ child.sayHello(); // "Hello from parent"
     }
 });
 ```
-  
+
+## Syntax of Promises Chaining:
+
+```javascript
+functionA()
+    .then(resultA => functionB(resultA))
+    .then(resultB => functionC(resultB))
+    .catch(error => {
+        // handle any error that occurred in any of the previous steps
+    });
+```
 
 ## Asynchronous JavaScript:
 - Asynchronous JavaScript allows non-blocking execution of code, enabling operations like making HTTP requests or handling time-consuming tasks without freezing the user interface.
