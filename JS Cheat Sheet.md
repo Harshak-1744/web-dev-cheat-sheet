@@ -564,7 +564,38 @@ functionA()
 - Asynchronous JavaScript allows non-blocking execution of code, enabling operations like making HTTP requests or handling time-consuming tasks without freezing the user interface.
 
 ## DOM Manipulation:
-- The Document Object Model (DOM) represents the structure of a web page. JavaScript can interact with the DOM to dynamically change HTML elements and their attributes.
+- The Document Object Model (DOM) represents the structure of a web page. JavaScript can interact with the DOM to dynamically change HTML elements and their attributes. This includes altering content, changing styles, adding or removing elements, and handling events. Below are some common operations in DOM manipulation:
+
+| Operation                  | Syntax                                                                                        | Description                                    |
+|----------------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------|
+| **Selecting Elements**     |                                                                                               |                                                |
+| By ID                      | `document.getElementById('elementId')`                                                        | Selects a single element by its ID.            |
+| By Class                   | `document.getElementsByClassName('className')`                                                | Selects all elements with the specified class. |
+| By Tag                     | `document.getElementsByTagName('tagName')`                                                    | Selects all elements with the specified tag.   |
+| Query Selector             | `document.querySelector('.className')` or `document.querySelector('#elementId')`              | Selects the first element matching the query.  |
+| **Modifying Content**      |                                                                                               |                                                |
+| Changing Text              | `document.getElementById('elementId').innerText = 'New Text';`                                | Changes the text content of an element.        |
+| Changing HTML              | `document.getElementById('elementId').innerHTML = '<b>New HTML</b>';`                         | Changes the HTML content of an element.        |
+| **Changing Styles**        |                                                                                               |                                                |
+| Modifying Styles           | `document.getElementById('elementId').style.color = 'red';`                                   | Alters the style of an element.                |
+| **Creating & Adding Elements** |                                                                                             |                                                |
+| Creating a New Element     | `var newDiv = document.createElement('div');`                                                 | Creates a new HTML element.                    |
+| Adding Text to Element     | `newDiv.innerText = 'Hello World';`                                                           | Adds text to a newly created element.          |
+| Appending to the DOM       | `document.body.appendChild(newDiv);`                                                          | Adds the new element to the DOM.               |
+| **Removing Elements**      |                                                                                               |                                                |
+| Remove an Element          | `var elementToRemove = document.getElementById('elementId'); elementToRemove.parentNode.removeChild(elementToRemove);` | Removes an element from the DOM.               |
+| **Event Handling**         |                                                                                               |                                                |
+| Adding an Event Listener   | `document.getElementById('elementId').addEventListener('click', function() { alert('Element clicked!'); });` | Adds an event listener to an element.          |
+| **Changing Attributes**    |                                                                                               |                                                |
+| Set Attribute              | `document.getElementById('elementId').setAttribute('href', 'https://example.com');`           | Sets an attribute of an element.               |
+| Get Attribute              | `var attributeValue = document.getElementById('elementId').getAttribute('href');`             | Retrieves an attribute value of an element.    |
+| **Class Manipulation**     |                                                                                               |                                                |
+| Add a Class                | `document.getElementById('elementId').classList.add('newClass');`                             | Adds a class to an element.                    |
+| Remove a Class             | `document.getElementById('elementId').classList.remove('existingClass');`                     | Removes a class from an element.               |
+| Toggle a Class             | `document.getElementById('elementId').classList.toggle('activeClass');`                       | Toggles a class on an element.                 |
+
+
+  
 
 ## Events and Event Listeners:
 - Events are actions that occur on a web page, like clicks or keypresses. Event listeners are used to "listen" for these events and execute specific actions when triggered.
