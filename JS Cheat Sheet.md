@@ -568,12 +568,12 @@ functionA()
 
 | Operation                  | Syntax                                                                                        | Description                                    |
 |----------------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------|
-| **Selecting Elements**     |                                                                                               |                                                |
+| *Selecting Elements*     |                                                                                               |                                                |
 | By ID                      | `document.getElementById('elementId')`                                                        | Selects a single element by its ID.            |
 | By Class                   | `document.getElementsByClassName('className')`                                                | Selects all elements with the specified class. |
 | By Tag                     | `document.getElementsByTagName('tagName')`                                                    | Selects all elements with the specified tag.   |
 | Query Selector             | `document.querySelector('.className')` or `document.querySelector('#elementId')`              | Selects the first element matching the query.  |
-| **Modifying Content**      |                                                                                               |                                                |
+| *Modifying Content*      |                                                                                               |                                                |
 | Changing Text              | `document.getElementById('elementId').innerText = 'New Text';`                                | Changes the text content of an element.        |
 | Changing HTML              | `document.getElementById('elementId').innerHTML = '<b>New HTML</b>';`                         | Changes the HTML content of an element.        |
 | **Changing Styles**        |                                                                                               |                                                |
@@ -584,12 +584,12 @@ functionA()
 | Appending to the DOM       | `document.body.appendChild(newDiv);`                                                          | Adds the new element to the DOM.               |
 | **Removing Elements**      |                                                                                               |                                                |
 | Remove an Element          | `var elementToRemove = document.getElementById('elementId'); elementToRemove.parentNode.removeChild(elementToRemove);` | Removes an element from the DOM.               |
-| **Event Handling**         |                                                                                               |                                                |
+| *Event Handling*         |                                                                                               |                                                |
 | Adding an Event Listener   | `document.getElementById('elementId').addEventListener('click', function() { alert('Element clicked!'); });` | Adds an event listener to an element.          |
-| **Changing Attributes**    |                                                                                               |                                                |
+| *Changing Attributes*   |                                                                                               |                                                |
 | Set Attribute              | `document.getElementById('elementId').setAttribute('href', 'https://example.com');`           | Sets an attribute of an element.               |
 | Get Attribute              | `var attributeValue = document.getElementById('elementId').getAttribute('href');`             | Retrieves an attribute value of an element.    |
-| **Class Manipulation**     |                                                                                               |                                                |
+| *Class Manipulation*     |                                                                                               |                                                |
 | Add a Class                | `document.getElementById('elementId').classList.add('newClass');`                             | Adds a class to an element.                    |
 | Remove a Class             | `document.getElementById('elementId').classList.remove('existingClass');`                     | Removes a class from an element.               |
 | Toggle a Class             | `document.getElementById('elementId').classList.toggle('activeClass');`                       | Toggles a class on an element.                 |
