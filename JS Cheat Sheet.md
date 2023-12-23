@@ -620,6 +620,74 @@ functionA()
 
 ## Regular Expressions:
 - Regular expressions (RegExp) are used for pattern matching and text searching.
+  
+# JavaScript Regular Expressions
+
+Regular expressions in JavaScript are patterns used to match character combinations in strings. They are an extremely powerful tool for searching and manipulating text. Here's a brief overview of how to use regular expressions (regex) in JavaScript:
+
+## Creating a Regular Expression
+There are two ways to create a regex in JavaScript:
+
+1. **Literal Notation**: Using two forward slashes (`/`) with the pattern in between.
+   ```javascript
+   let re = /pattern/;
+   ```
+
+2. **Constructor Function of the `RegExp` Object**:
+   ```javascript
+   let re = new RegExp('pattern');
+   ```
+
+## Flags
+Regular expressions can have flags that affect the search. Common flags include:
+
+- `g`: Global search (find all matches rather than stopping after the first match)
+- `i`: Case-insensitive search
+- `m`: Multi-line search
+
+Example with flags:
+```javascript
+let re = /pattern/gi;
+```
+
+## Methods Using Regex
+- **test()**: Checks if a pattern exists in a string. Returns `true` or `false`.
+  ```javascript
+  re.test('string to test');
+  ```
+
+- **exec()**: Finds a match in a string. Returns an array of information or `null`.
+  ```javascript
+  re.exec('string to test');
+  ```
+
+- **match()**: Applied to a string and returns an array of matches.
+  ```javascript
+  'string to test'.match(re);
+  ```
+
+- **replace()**: Replaces matches in a string with a new substring.
+  ```javascript
+  'string to test'.replace(re, 'newSubstr');
+  ```
+
+- **search()**: Tests for a match in a string. Returns the index of the match, or `-1` if the search fails.
+  ```javascript
+  'string to test'.search(re);
+  ```
+
+- **split()**: Uses a regex or a fixed string to break a string into an array of substrings.
+  ```javascript
+  'string to test'.split(re);
+  ```
+
+## Example Pattern
+A simple pattern to match an email address might look like this:
+```javascript
+let emailPattern = /\S+@\S+\.\S+/;
+```
+
+
 
 ## Built-in Objects:
 - JavaScript provides several built-in objects like Math, Date, Array, String, and more, offering various utility methods and properties.
