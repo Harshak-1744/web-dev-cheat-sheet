@@ -617,9 +617,6 @@ functionA()
 
 ## Error Handling:
 - Error handling is a way to gracefully handle errors in JavaScript using try...catch blocks.
-
-## Regular Expressions:
-- Regular expressions (RegExp) are used for pattern matching and text searching.
   
 # JavaScript Regular Expressions
 
