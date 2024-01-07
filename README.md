@@ -5,7 +5,7 @@ Welcome to the HTML, CSS, and JavaScript Cheat Sheets repository! This repositor
 # web-dev-Cheat Sheets Included
 
 ## [Html_cheat_sheet.md](https://github.com/Harshak-1744/web-dev-cheat-sheet/blob/main/HTML%20Cheat%20Sheet.md) : 
-  This Markdown document contains a comprehensive cheat sheet for HTML, including commonly used tags, attributes, and examples.
+  This Markdown document contains a comprehensive cheat sheet for HTML, including commonly used tags, attributes, and examples. 
 
 ## [Css_cheat_sheet.md](https://github.com/Harshak-1744/web-dev-cheat-sheet/blob/main/Css%20Cheat%20Sheet.md) : 
   In this Markdown file, you'll find a collection of CSS properties, selectors, and tips to style your web pages effectively.
