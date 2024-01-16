@@ -2,6 +2,8 @@
 
 ## HTML Cheat Sheet
 
+This is the reference for all the basic tags in HTML5
+
 ## Document Structure
 
 ```html
