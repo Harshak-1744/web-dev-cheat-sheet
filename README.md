@@ -1,6 +1,6 @@
 # HTML, CSS, and JavaScript Cheat Sheets
  
-Welcome to the HTML, CSS, and JavaScript Cheat Sheets repository! This repository contains handy cheat sheets for front-end web development, covering HTML, CSS, and JavaScript, to help you quickly reference essential concepts and syntax.
+Welcome to the HTML, CSS, and JavaScript Cheat Sheets repository! This repository contains handy cheat sheets for front-end web development, covering HTML, CSS, and JavaScript, to help you quickly reference essential concepts and syntax. 
 
 # web-dev-Cheat Sheets Included
 
